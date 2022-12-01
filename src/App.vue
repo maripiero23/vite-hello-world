@@ -1,9 +1,10 @@
 <script>
   import AppTitle from './components/AppTitle.vue'
+  import AppHero from './components/AppHero.vue'
 
 
   export default{
-    components: { AppTitle },
+    components: { AppTitle, AppHero },
     data (){
       return{
         
@@ -14,9 +15,20 @@
 </script>
 
 <template>
-  
 
-  <h1><AppTitle></AppTitle></h1>
+  <div class="container text-success mt-0">
+
+    <h1><u><AppTitle></AppTitle> </u></h1>
+
+
+    <div class="mt-3">
+
+      <AppHero></AppHero>
+      
+    </div>
+
+  </div>
+  
  
 </template>
 

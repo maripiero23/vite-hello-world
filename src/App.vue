@@ -1,8 +1,11 @@
 <script>
+  import AppTitle from "./components/AppTitle.vue"
+
+
   export default{
     data (){
       return{
-        messaggio: "Bella vecchio"
+        
       }
     }
 
@@ -10,11 +13,12 @@
 </script>
 
 <template>
-  <h1>{{messaggio}}</h1>
-  <p>Ecco il mio progetto in Vit</p>
+  
+
+  <h1><AppTitle></AppTitle></h1>
  
 </template>
 
-<style scoped>
+<style>
 
 </style>

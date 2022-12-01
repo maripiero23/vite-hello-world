@@ -3,11 +3,8 @@
 
 
   export default{
-    data (){
-      return{
-        
-      }
-    }
+    components: { AppTitle }
+   
 
   }
 </script>
